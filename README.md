@@ -1,6 +1,4 @@
-//kendi-kendine-yolunu-bulan-player
-//tahtası üzerindeki engelleri atlatan gittiği yoldan mümkünse gitmeyen önceliği kuzey olarak ilerleyen player
- #include<stdio.h>
+#include <stdio.h>
 #include<Windows.h>
 void ekran(int tablo[11][11])
 {
@@ -513,7 +511,7 @@ if(skorx>skory&&skorx>skorz)
 	}
 	else if(skorz>skory)
 	{
-		printf("z oyunu %d puanla ikincilile bitirdi",skorz); 
+		printf("z oyunu %d puanla ikincilile bitirdi",skorz);
 			printf("\n");
 		printf("y oyunu % puanla üçüncülükle bitirip oyunu son kazanan oldu yani kaybetti",skory);
 	printf("\n");
